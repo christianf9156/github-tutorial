@@ -23,12 +23,11 @@ _by Christian Fernandez_
  
 2. **Github works with git to share files, projects, repositories and directories**  
   * Github only saves the code that is **<span style="color:red">PUSHED</span>** from git
-  * Must have an account at https://github.com/ in order to use git 
+  * Must have an account at https://github.com/ in order to use github 
   * On the github website you make your respository to hold and save all code 
   * You can make new repositories in github for different projects and to keep projects organized
   * can link to git by copying and pasting your ssh key to git with git clone 
-  * you can choose to have respoitory using http or ssh key 
-  * ssh key is better 
+  
 
 
 
