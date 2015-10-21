@@ -29,14 +29,15 @@ _by Christian Fernandez_
   * can link to git by copying and pasting your ssh key to git with git clone 
   
 
-
-
-
 ---
 ## Initial Setup
 **To begin using GitHub you must 1st make an account at https://github.com/**  
 1) You should see **(<span style = "color:green">+New repository</span>)** on the right side of the page after signing in  
-2) To make a new repository(repo) to save and share projects, codes, files, etc  
+2) To make a new repository(repo) to save and share projects, codes, files, etc: You have to first make a directory(folder) on the c9 terminal  
+3)After making the directory on the c9 terminal _(mkdir folder name)_  go to github.com and sign in  
+4) When you are signed in you should see the **(<span style = "color:green">+New repository</span>)** button. Click it then name it the exact same name as your directory from **git**  
+5)
+
 
 
 ---
