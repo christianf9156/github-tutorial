@@ -34,7 +34,9 @@ _by Christian Fernandez_
 
 ---
 ## Initial Setup
-
+**To begin using GitHub you must 1st make an account at https://github.com/**  
+1) You should see **(<span style = "color:green">+New repository</span>)** on the right side of the page after signing in  
+2) To make a new repository(repo) to save and share projects, codes, files, etc  
 
 
 ---
