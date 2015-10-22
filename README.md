@@ -40,8 +40,9 @@ _by Christian Fernandez_
 5) After naming your <span style ="color:green">repo</span> You will see a few options appear. In the <span style="color:blue"> Quick setup</span> section you will see HTTPS & SSH  
 6) You can select HTTPS or SSH.  However I recommened SSH because it's more secure, better protected, and impossible to hack without the key code  
 7)If you selected HTTPS you will have to type in your e-mail and password everytime you want to make changes to your file or code, and it is easy to hack because all a person would need is your e-mail and password!!  
-8) After selecting SSH. <span style="color:red">**Copy & Paste** these 2 lines from the section that says **(…or push an existing repository from the command line)**, one line at a time into git in this order:</span> <span style="color:teal">** git remote add origin git@github.com:(your account)/GitHubTest.git</span> then <span style="color:teal">git push -u origin master</span>**  
-9) Everything should be set up now so go back to git in the c9.io terminal
+8)  To make an e-mail and password type the command ( **git config** ). Then type (**user.e-mail**) then (**user.password**)  
+9) After selecting SSH. <span style="color:red">**Copy & Paste** these 2 lines from the section that says **(…or push an existing repository from the command line)**, one line at a time into git in this order:</span> <span style="color:teal">** git remote add origin git@github.com:(your account)/GitHubTest.git</span> then <span style="color:teal">git push -u origin master</span>**  
+10) Everything should be set up now so go back to git in the c9.io terminal
 
 
 
@@ -76,6 +77,16 @@ _by Christian Fernandez_
 2) The repo allows you to edit files in git  
 3) Then you save your work (git add)  
 4) Then add a short msg about what you did (git commit -m)  
-5) 
+5) Send your changed and saved work to your repo on github ( git push)  
+##Here are a few commands that will make navigating git a lot easier  
+* <span style = "color:red">**git init**</span> - brings you into git  
+* <span style = "color:red">**git status**</span> - will show you all the files that have been changed and if the file is **red** then it as not been added
+* <span style="color:blue">**TIP** : when done typing in code. Type in git status in the command line and your file should appear **RED**, this means you have not put a stage on your file (git add). After doing git add, type in git status again and the file should be green this time. This means it is ready to be committed and pushed  </span>
+* <span style = "color:red">**git add**</span> - creates a stage for written code or project, so that it can be tracked(the file name should be green after you git add)  
+* <span style = "color:red">**git commit -m "msg"**</span> - lets you write a short msg that summerizes the thing you did or changes you have made  
+* <span style = "color:red">**git config**</span> - allows you to set up your email (user.email) and password (user.password)  
+* <span style = "color:red">**git push**</span> - pushes all save files and commits onto github  
+* <span style = "color:red">**git pull**</span> - allows you to save changes from another repo  
+* <span style = "color:red">**git help**</span> - for more clarification on a certian command 
 
 
