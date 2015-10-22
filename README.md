@@ -56,8 +56,14 @@ _by Christian Fernandez_
 3) Git Init tells the terminal that you want to use git so from now on, all commands will have to use git  
 3) To save your code onto github.com: you have to type in these 3 commands: <span style="color:red"> **git add(file name) git commit -m "2 words explaining what you did" git push**</span>  
 4) <span style="color:red">**git add**</span> - creates a stage around the file so that git can see it  
-5) <span style="color:red">**git commit -m "msg goes here"**</span> - allows you to **_quickly** explain what you have done in your code or what a piece of code does  
-6)<span style="color:red">**git push**</span> - pushes all of your saves and commits onto your repo in GitHub 
+5) <span style="color:red">**git commit -m "msg goes here"**</span> - allows you to **_quickly_** explain what you have done in your code or what a piece of code does  
+6)<span style="color:red">**git push**</span> - pushes all of your saves and commits onto your repo in GitHub  
+7) The repo in your GitHub is your **Local Repo**. This means that it is only on your machine and only you have access to it  
+8) A **Remote Repo** is an online repo in which other people can view your repo and suggest changes to your ocde to make it better  
+9) To use this remote repo you have to fork another person's repo then copy their SSH key with git clone  
+10) Only if you want to see other peoples' projects and make suggestions to improve one's code
+
+
 
 
 
