@@ -36,7 +36,10 @@ _by Christian Fernandez_
 2) To make a new repository(repo) to save and share projects, codes, files, etc: You have to first make a directory(folder) on the c9 terminal  
 3)After making the directory on the c9 terminal _(mkdir folder name)_  go to github.com and sign in  
 4) When you are signed in you should see the **(<span style = "color:green">+New repository</span>)** button. Click it then name it the exact same name as your directory from **git**  
-5)
+5) After naming your <span style ="color:green">repo</span> You will see a few options appear. In the <span style="color:blue"> Quick setup</span> section you will see HTTPS & SSH  
+6) You can select HTTPS or SSH.  However I recommened SSH because it's more secure, better protected, and impossible to hack without the key code  
+7)If you selected HTTPS
+
 
 
 
