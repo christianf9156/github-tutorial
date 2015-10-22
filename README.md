@@ -70,3 +70,12 @@ _by Christian Fernandez_
 
 ---
 # Workflow & Commands
+## All commands in git must start with _git_  
+**The git work flow is like:**  
+1) In your terminal you go to the directory that has git initiated  
+2) The repo allows you to edit files in git  
+3) Then you save your work (git add)  
+4) Then add a short msg about what you did (git commit -m)  
+5) 
+
+
