@@ -9,7 +9,7 @@
 _by Christian Fernandez_
 
 ---
-## Git vs. GitHub
+# Git vs. GitHub
 1. **Git is a version control, which means it manages multiple tasks and files.**  
   * Git does not require Github to work
   * has a "snap shot method" - takes pictures of code
@@ -30,23 +30,37 @@ _by Christian Fernandez_
   
 
 ---
-## Initial Setup
-**To begin using GitHub you must 1st make an account at https://github.com/**  
+# Initial Setup
+##To begin using GitHub you must 1st make an account at https://github.com/**  
+## This section will teach you how to setup your new repo
 1) You should see **(<span style = "color:green">+New repository</span>)** on the right side of the page after signing in  
 2) To make a new repository(repo) to save and share projects, codes, files, etc: You have to first make a directory(folder) on the c9 terminal  
 3)After making the directory on the c9 terminal _(mkdir folder name)_  go to github.com and sign in  
 4) When you are signed in you should see the **(<span style = "color:green">+New repository</span>)** button. Click it then name it the exact same name as your directory from **git**  
 5) After naming your <span style ="color:green">repo</span> You will see a few options appear. In the <span style="color:blue"> Quick setup</span> section you will see HTTPS & SSH  
 6) You can select HTTPS or SSH.  However I recommened SSH because it's more secure, better protected, and impossible to hack without the key code  
-7)If you selected HTTPS
+7)If you selected HTTPS you will have to type in your e-mail and password everytime you want to make changes to your file or code, and it is easy to hack because all a person would need is your e-mail and password!!  
+8) After selecting SSH. <span style="color:red">**Copy & Paste** these 2 lines from the section that says **(…or push an existing repository from the command line)**, one line at a time into git in this order:</span> <span style="color:teal">** git remote add origin git@github.com:(your account)/GitHubTest.git</span> then <span style="color:teal">git push -u origin master</span>**  
+9) Everything should be set up now so go back to git in the c9.io terminal
+
+
 
 
 
 
 ---
-## Repository Setup
+# Repository Setup
+
+1) After making your repo with **SSH**, you can now make as much repos as you like  
+2) To use git in the c9 terminal you have to type this command in once you are in the correct directory: <span style="color:red"> **git init**</span>
+3) Git Init tells the terminal that you want to use git so from now on, all commands will have to use git  
+3) To save your code onto github.com: you have to type in these 3 commands: <span style="color:red"> **git add(file name) git commit -m "2 words explaining what you did" git push**</span>  
+4) <span style="color:red">**git add**</span> - creates a stage around the file so that git can see it  
+5) <span style="color:red">**git commit -m "msg goes here"**</span> - allows you to **_quickly** explain what you have done in your code or what a piece of code does  
+6)<span style="color:red">**git push**</span> - pushes all of your saves and commits onto your repo in GitHub 
+
 
 
 
 ---
-## Workflow & Commands
+# Workflow & Commands
