@@ -87,6 +87,6 @@ _by Christian Fernandez_
 * <span style = "color:red">**git config**</span> - allows you to set up your email (user.email) and password (user.password)  
 * <span style = "color:red">**git push**</span> - pushes all save files and commits onto github  
 * <span style = "color:red">**git pull**</span> - allows you to save changes from another repo  
-* <span style = "color:red">**git help**</span> - for more clarification on a certian command 
+* <span style = "color:red">**git help**</span> - for more clarification on a certian command
 
 
